@@ -12,6 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".activities.LayoutBasics"/>
         <activity android:name=".activities.FeatureActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,10 +24,10 @@
         <activity android:name=".activities.HomeScreen" />
         <activity android:name=".activities.ActivityA" />
         <activity android:name=".activities.ActivityB" />
-        <activity android:name=".activities.LoginActivity"/>
+        <activity android:name=".activities.LoginActivity" />
+        <activity android:name=".activities.InternetDetector" />
 
         <service android:name=".services.CountingService" />
-
     </application>
 
 </manifest>
