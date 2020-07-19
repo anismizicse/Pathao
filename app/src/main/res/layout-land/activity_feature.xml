@@ -10,7 +10,6 @@
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="230dp"
         android:onClick="openLogin"
         android:text="LoginSystem"
         app:layout_constraintEnd_toEndOf="parent"
@@ -21,7 +20,6 @@
         android:id="@+id/button5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
         android:onClick="openActivityLifeCycle"
         android:text="ActivityLifeCycle"
         app:layout_constraintEnd_toEndOf="parent"
@@ -32,7 +30,6 @@
         android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
         android:onClick="openLayoutBasics"
         android:text="Layout Basics"
         app:layout_constraintEnd_toEndOf="parent"
@@ -43,7 +40,6 @@
         android:id="@+id/internet_detector"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
         android:onClick="openInternetDetector"
         android:text="Interent Detector"
         app:layout_constraintEnd_toEndOf="parent"
@@ -54,10 +50,18 @@
         android:id="@+id/button6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
         android:onClick="openAppResources"
         android:text="@string/app_resources"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/internet_detector" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Feature land extra"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button6" />
 </androidx.constraintlayout.widget.ConstraintLayout>

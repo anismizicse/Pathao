@@ -35,4 +35,9 @@ public class FeatureActivity extends AppCompatActivity {
         Intent intent = new Intent(this, InternetDetector.class);
         startActivity(intent);
     }
+
+    public void openAppResources(View view) {
+        Intent intent = new Intent(this, AppResources.class);
+        startActivity(intent);
+    }
 }
