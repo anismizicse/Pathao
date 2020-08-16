@@ -40,4 +40,9 @@ public class FeatureActivity extends AppCompatActivity {
         Intent intent = new Intent(this, AppResources.class);
         startActivity(intent);
     }
+
+    public void openNavigation(View view) {
+        Intent intent = new Intent(this, NavigationDrawerActivity.class);
+        startActivity(intent);
+    }
 }
